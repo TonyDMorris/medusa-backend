@@ -30,6 +30,8 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: medusa-docker
+    volumes: 
+      - db:/var/lib/postgresql/data
 
   redis:
     image: redis
@@ -38,3 +40,4 @@ services:
 
 volumes:
   node_modules:
+  db:
