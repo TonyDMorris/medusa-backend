@@ -1,0 +1,114 @@
+{
+    "appliedRules": null,
+    "appliedRelevancyStrictness": 0,
+    "aroundLatLng": "",
+    "automaticRadius": "",
+    "exhaustiveFacetsCount": false,
+    "exhaustiveNbHits": true,
+    "explain": null,
+    "extensions": null,
+    "facets": null,
+    "facets_stats": null,
+    "Hits": [
+        {
+            "_highlightResult": {
+                "bodytext": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "\u003cp\u003eAs queen of the kooky and macabre, Xue is known for her fairy tale paintings. The former fashionista fuses supernatural themes and a sugar-sweet colour palette to create irresistible lowbrow pop surrealist pieces.\u003c/p\u003e"
+                },
+                "born": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Ashan, China"
+                },
+                "inspiration_bodytext": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "\u003cp\u003eWith inspirations ranging from Victoriana to dolls and funfairs, she applies just as much wry humour as paint. For each character, Xue sketches out the faces before adding makeup, hairstyles, clothes and accessories. She uses oils on board and paints at home on her easel, with her dog Kuma and daughter Macey - who is sometimes too helpful!\u003c/p\u003e\r\n\u003cp\u003eEach painting takes between 80 and 120 hours to complete. Xue - who originally hails from China - uses multiple layers of glaze, while the carved frames lend her work a Baroque aesthetic.\u003c/p\u003e\r\n\u003cp\u003eXue says: \u0026ldquo;I love vintage pin-up imagery, film noir and silent films. We cannot escape the past and our sweet yesterdays, whether imaginary or real. They are my repository.\u0026rdquo;\u003c/p\u003e"
+                },
+                "lives_and_works": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "London "
+                },
+                "meta_description": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "xue",
+                        "wang"
+                    ],
+                    "value": "Quirky \u003cem\u003eXue Wang\u003c/em\u003e is known for her lowbrow pop surrealist paintings. Shop her collection now at Castle Fine Art. "
+                },
+                "meta_keywords": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "xue",
+                        "wang"
+                    ],
+                    "value": "\u003cem\u003eXue Wang\u003c/em\u003e art, \u003cem\u003eXue Wang\u003c/em\u003e artist, Beautiful Bizarre, fairy tale art, buy art online UK, quirky art, Chinese art, Chinese artist, fashion art, fashionista, \u003cem\u003eXue Wang\u003c/em\u003e Castle Fine Art, spooky art, ghost art"
+                },
+                "studio_bodytext": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "\u003cp\u003eXue paints with oils on board, which is a smooth and light texture to work with. She sketches first for the right composition, and then makes a mock-up to trace onto the board. She creates many layers, starting with the far background and finishing with the detail at the front.\u003c/p\u003e\r\n\u003cp\u003eThe artist adds: \u0026ldquo;For each character, I first sketch out the simple faces. Then I add makeup, hairstyles, clothes and accessories \u0026ndash; a bit like when you style a real person! During the process, I develop ideas about the atmosphere for each individual. This comes naturally with my fashion background.\"\u003c/p\u003e\r\n\u003cp\u003eFun fact: Xue and her husband Bruce are keen mushroom hunters!\u003c/p\u003e"
+                },
+                "title": {
+                    "fullyHighlighted": true,
+                    "matchLevel": "full",
+                    "matchedWords": [
+                        "xue",
+                        "wang"
+                    ],
+                    "value": "\u003cem\u003eXue Wang\u003c/em\u003e"
+                }
+            },
+            "awards": null,
+            "bodytext": "\u003cp\u003eAs queen of the kooky and macabre, Xue is known for her fairy tale paintings. The former fashionista fuses supernatural themes and a sugar-sweet colour palette to create irresistible lowbrow pop surrealist pieces.\u003c/p\u003e",
+            "born": "Ashan, China",
+            "code": "XWA",
+            "education": "University of Westminster ",
+            "exhibitions": null,
+            "inspiration_bodytext": "\u003cp\u003eWith inspirations ranging from Victoriana to dolls and funfairs, she applies just as much wry humour as paint. For each character, Xue sketches out the faces before adding makeup, hairstyles, clothes and accessories. She uses oils on board and paints at home on her easel, with her dog Kuma and daughter Macey - who is sometimes too helpful!\u003c/p\u003e\r\n\u003cp\u003eEach painting takes between 80 and 120 hours to complete. Xue - who originally hails from China - uses multiple layers of glaze, while the carved frames lend her work a Baroque aesthetic.\u003c/p\u003e\r\n\u003cp\u003eXue says: \u0026ldquo;I love vintage pin-up imagery, film noir and silent films. We cannot escape the past and our sweet yesterdays, whether imaginary or real. They are my repository.\u0026rdquo;\u003c/p\u003e",
+            "inspiration_bodytext2": null,
+            "lives_and_works": "London ",
+            "meta_description": "Quirky Xue Wang is known for her lowbrow pop surrealist paintings. Shop her collection now at Castle Fine Art. ",
+            "meta_keywords": "Xue Wang art, Xue Wang artist, Beautiful Bizarre, fairy tale art, buy art online UK, quirky art, Chinese art, Chinese artist, fashion art, fashionista, Xue Wang Castle Fine Art, spooky art, ghost art",
+            "meta_title": "Xue Wang",
+            "objectID": "53",
+            "studio_bodytext": "\u003cp\u003eXue paints with oils on board, which is a smooth and light texture to work with. She sketches first for the right composition, and then makes a mock-up to trace onto the board. She creates many layers, starting with the far background and finishing with the detail at the front.\u003c/p\u003e\r\n\u003cp\u003eThe artist adds: \u0026ldquo;For each character, I first sketch out the simple faces. Then I add makeup, hairstyles, clothes and accessories \u0026ndash; a bit like when you style a real person! During the process, I develop ideas about the atmosphere for each individual. This comes naturally with my fashion background.\"\u003c/p\u003e\r\n\u003cp\u003eFun fact: Xue and her husband Bruce are keen mushroom hunters!\u003c/p\u003e",
+            "studio_quote": null,
+            "studio_subtitle": null,
+            "studio_title": "Inside the world of Xue Wang ",
+            "thumbnail": "https://www.castlefineart.com/assets/img/resized/icon-64/xue-w.JPG",
+            "title": "Xue Wang",
+            "url": "https://www.castlefineart.com/artists/xue-wang"
+        }
+    ],
+    "hitsPerPage": 1000,
+    "index": "",
+    "indexUsed": "",
+    "length": 0,
+    "message": "",
+    "nbHits": 1,
+    "nbPages": 1,
+    "nbSortedHits": 0,
+    "offset": 0,
+    "page": 0,
+    "params": "hitsPerPage=1000\u0026query=xue-wang",
+    "parsedQuery": "",
+    "processingTimeMS": 1,
+    "query": "xue-wang",
+    "queryAfterRemoval": "",
+    "queryID": "",
+    "serverUsed": "",
+    "timeoutCounts": false,
+    "timeoutHits": false,
+    "userData": null,
+    "abTestVariantID": 0,
+    "renderingContent": {
+        "facetOrdering": null
+    }
+}
