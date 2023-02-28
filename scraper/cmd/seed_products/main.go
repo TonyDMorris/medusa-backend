@@ -3,6 +3,8 @@ package main
 import (
 	"encoding/json"
 	"io/ioutil"
+	"net/http"
+	"path/filepath"
 
 	"github.com/TonyDMorris/scraper/pkg/castle"
 	"github.com/TonyDMorris/scraper/pkg/castle/mapper"
@@ -47,6 +49,18 @@ func main() {
 				if err != nil {
 					panic(err)
 				}
+				if hit.Thumbnail == "" {
+					hit.Thumbnail = hit.SquareThumbnail
+				}
+				if hit.Thumbnail == "" {
+					hit.Thumbnail = hit.HoverThumbnail
+				}
+				if hit.Thumbnail != "" {
+					err := uploadFileImage(hit.Thumbnail, client)
+					if err != nil {
+						panic(err)
+					}
+				}
 				product, err := mapper.ProductAlgoliaToMedusa(&hit, idsMap[hit.ArtistTitle])
 				if err != nil {
 					panic(err)
@@ -66,4 +80,27 @@ func main() {
 		}
 	}
 
+}
+
+func uploadFileImage(url string, client *client.HTTPClient) error {
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		return err
+	}
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return err
+	}
+
+	_, err = client.UploadFile(filepath.Base(url), body)
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
