@@ -3675,16 +3675,24 @@ medusa-core-utils@^1.1.26, medusa-core-utils@^1.1.31, medusa-core-utils@^1.1.37:
     joi "^17.3.0"
     joi-objectid "^3.0.1"
 
-medusa-file-s3@^1.1.8:
-  version "1.1.8"
-  resolved "https://registry.npmjs.org/medusa-file-s3/-/medusa-file-s3-1.1.8.tgz"
-  integrity sha512-uxbJhRTPKTQ+r1Qtj5HXv0E+vHX5wLmx+cEgPJiGrwTxrh6d+pnIBlLZbqETPgFLv7kfjneTFtns0BMgGTy4LA==
+medusa-core-utils@^1.1.39:
+  version "1.1.39"
+  resolved "https://registry.yarnpkg.com/medusa-core-utils/-/medusa-core-utils-1.1.39.tgz#72a4ed63a2779583dc8e5f2661763cfa13eed9d6"
+  integrity sha512-bceQdAuC//d41xn6JHOmBQudb/KD1qp0A9/tmMVdCkKuDguyHVNgIAoWRMymqXeCHMe+AS++38SEllYXWkLGag==
+  dependencies:
+    joi "^17.3.0"
+    joi-objectid "^3.0.1"
+
+medusa-file-s3@^1.1.11:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/medusa-file-s3/-/medusa-file-s3-1.1.11.tgz#ca4fa2d487943e27546f10bbed0a9b97f9952a88"
+  integrity sha512-M2+guZkKyCYEKMdPCJ3Q1vFuOLqTJhibtinw8+iEBGD+KA40XmM/JAyN5KmMlh4tBP+TQXFCUeVVvw2V4v7k6Q==
   dependencies:
     "@babel/plugin-transform-classes" "^7.15.4"
     aws-sdk "^2.983.0"
     body-parser "^1.19.0"
     express "^4.17.1"
-    medusa-core-utils "^1.1.37"
+    medusa-core-utils "^1.1.39"
     medusa-test-utils "^1.1.37"
 
 medusa-fulfillment-manual@^1.1.31:
