@@ -3771,6 +3771,11 @@ medusa-test-utils@^1.1.29, medusa-test-utils@^1.1.37:
     medusa-core-utils "^1.1.31"
     randomatic "^3.1.1"
 
+medusajs@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.npmjs.org/medusajs/-/medusajs-1.2.4.tgz"
+  integrity sha512-WHhU/XnuSGoUAaIg6kz8Y62mdw3pkQA3+IQyyb+Z9LXBr5XBNcZfPXr7PiyyqHF1684POda/5jkxY2pWfhaCEA==
+
 memory-pager@^1.0.2:
   version "1.5.0"
   resolved "https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz"
