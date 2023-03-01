@@ -8,6 +8,6 @@ RUN yarn global add @medusajs/medusa-cli@latest
 
 RUN yarn
 
-EXPOSE 9000
+EXPOSE 8080
 
-ENTRYPOINT ["./develop.sh"]
+ENTRYPOINT ["npm", "run", "start"]
