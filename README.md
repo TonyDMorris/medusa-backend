@@ -58,7 +58,7 @@ Your local Medusa server is now running on port **9000**.
 
 ### Seeding your Medusa store
 
----
+---s
 
 To seed your medusa store run the following command:
 
