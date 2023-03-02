@@ -6,7 +6,7 @@ COPY . .
 
 RUN yarn global add @medusajs/medusa-cli@latest
 
-RUN npm i
+RUN yarn install
 
 EXPOSE 8080
 

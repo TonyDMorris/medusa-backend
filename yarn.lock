@@ -3683,7 +3683,7 @@ media-typer@0.3.0:
   resolved "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-medusa-core-utils@^1.1.26, medusa-core-utils@^1.1.31, medusa-core-utils@^1.1.37, medusa-core-utils@^1.1.39:
+medusa-core-utils@^1.1.26, medusa-core-utils@^1.1.31, medusa-core-utils@^1.1.39:
   version "1.1.39"
   resolved "https://registry.npmjs.org/medusa-core-utils/-/medusa-core-utils-1.1.39.tgz"
   integrity sha512-bceQdAuC//d41xn6JHOmBQudb/KD1qp0A9/tmMVdCkKuDguyHVNgIAoWRMymqXeCHMe+AS++38SEllYXWkLGag==
@@ -3703,35 +3703,35 @@ medusa-file-s3@^1.1.11:
     medusa-core-utils "^1.1.39"
     medusa-test-utils "^1.1.37"
 
-medusa-fulfillment-manual@^1.1.31:
-  version "1.1.33"
-  resolved "https://registry.npmjs.org/medusa-fulfillment-manual/-/medusa-fulfillment-manual-1.1.33.tgz"
-  integrity sha512-Qtd03+f/wMEUKGn1fiqLUlLiiW2D3fyLYQiIJQ7Nz6R11SlmkpgBFSIhFeZzEjkjPyOlgTI+3jTSFpSLfNoKXw==
+medusa-fulfillment-manual@^1.1.36:
+  version "1.1.36"
+  resolved "https://registry.npmjs.org/medusa-fulfillment-manual/-/medusa-fulfillment-manual-1.1.36.tgz"
+  integrity sha512-4ozRljnHjDmsBsJ/bEqMivlVzgvHa+ibZBKik+Nu04Ko3l9J+Yt2PF/4vIqCFu0c93PWY1EDDjouszgcccjb8A==
   dependencies:
     "@babel/plugin-transform-classes" "^7.9.5"
     "@babel/plugin-transform-instanceof" "^7.8.3"
     "@babel/runtime" "^7.7.6"
     express "^4.17.1"
-    medusa-core-utils "^1.1.37"
+    medusa-core-utils "^1.1.39"
 
 medusa-interfaces@^1.3.6:
   version "1.3.6"
   resolved "https://registry.npmjs.org/medusa-interfaces/-/medusa-interfaces-1.3.6.tgz"
   integrity sha512-igS1FMd22fJFpq6vtQMTCAVZryCOlgY8OscsV2rDWcpgLFrlpxzbTjBO5LOn0kjzaAyUujmIciOSvwkc+Bc5Iw==
 
-medusa-payment-manual@^1.0.16:
-  version "1.0.18"
-  resolved "https://registry.npmjs.org/medusa-payment-manual/-/medusa-payment-manual-1.0.18.tgz"
-  integrity sha512-79AOraF74JiobMiWz53Xuhj683kgqrdtvZJIcV+wb6WpeZttmrt0FYjBwAzhOO6IIDhSO7oPBIgmiAAeXol0PA==
+medusa-payment-manual@^1.0.22:
+  version "1.0.22"
+  resolved "https://registry.npmjs.org/medusa-payment-manual/-/medusa-payment-manual-1.0.22.tgz"
+  integrity sha512-qNXmY7nY1I6LkTb6WHm9w4o3Yw+BOoQaGiar+eBujR+fqAVwVhLt8CAzAY2F4jS3J13R4ZJF9818TmBBSE4SmQ==
 
-medusa-payment-stripe@^1.1.45:
-  version "1.1.50"
-  resolved "https://registry.npmjs.org/medusa-payment-stripe/-/medusa-payment-stripe-1.1.50.tgz"
-  integrity sha512-BJueFlgFTHQMTGKDdK17FPr2Ebn9KrAC5llchpgTwW5VAFZGnEfYQFZapt6q7KsFCuZ5Z4gwYGPqncWXOGUxRg==
+medusa-payment-stripe@^1.1.53:
+  version "1.1.53"
+  resolved "https://registry.npmjs.org/medusa-payment-stripe/-/medusa-payment-stripe-1.1.53.tgz"
+  integrity sha512-6Ji2y3FKYg3tVj2uNsGAWRkQ0uF0HBIAskBM65xMY8V8TcAhfsZMipALmqsu87It1X+05+7MUa5FbAObP5mPtw==
   dependencies:
     body-parser "^1.19.0"
     express "^4.17.1"
-    medusa-core-utils "^1.1.37"
+    medusa-core-utils "^1.1.39"
     stripe "^8.50.0"
 
 medusa-telemetry@0.0.15:
