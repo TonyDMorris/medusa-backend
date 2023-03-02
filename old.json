@@ -7,15 +7,17 @@
   "scripts": {
     "seed": "medusa seed -f ./data/seed.json",
     "build": "babel src -d dist --extensions \".ts,.js\"",
-    "start": "medusa develop"
+    "start": "medusa migrations run && medusa start -p=8080"
   },
   "dependencies": {
-    "@medusajs/medusa": "^1.6.0",
+    "@medusajs/medusa": "^1.1.54",
     "@medusajs/medusa-cli": "^1.3.3",
-    "medusa-fulfillment-manual": "^1.1.31",
-    "medusa-interfaces": "^1.3.3",
-    "medusa-payment-manual": "^1.0.16",
-    "medusa-payment-stripe": "^1.1.45",
+    "medusa-file-s3": "^1.1.11",
+    "medusa-fulfillment-manual": "^1.1.36",
+    "medusa-interfaces": "^1.3.6",
+    "medusa-payment-manual": "^1.0.22",
+    "medusa-payment-stripe": "^1.1.53",
+    "mongoose": "^7.0.0",
     "typeorm": "^0.2.36"
   },
   "repository": "https://github.com/medusajs/medusa-starter-default.git",
@@ -30,5 +32,8 @@
     "@babel/core": "^7.18.10",
     "@babel/preset-typescript": "^7.14.5",
     "babel-preset-medusa-package": "^1.1.19"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
