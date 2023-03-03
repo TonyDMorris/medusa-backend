@@ -43,16 +43,16 @@ const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
 const plugins = [
   `medusa-fulfillment-manual`,
   `medusa-payment-manual`,
-  // {
-  //   resolve: `medusa-file-s3`,
-  //   options: {
-  //       s3_url: process.env.S3_URL,
-  //       bucket: process.env.S3_BUCKET,
-  //       region: process.env.S3_REGION,
-  //       access_key_id: process.env.S3_ACCESS_KEY_ID,
-  //       secret_access_key: process.env.S3_SECRET_ACCESS_KEY,
-  //   },
-  // },
+  {
+    resolve: `medusa-file-s3`,
+    options: {
+        s3_url: process.env.S3_URL,
+        bucket: process.env.S3_BUCKET,
+        region: process.env.S3_REGION,
+        access_key_id: process.env.S3_ACCESS_KEY_ID,
+        secret_access_key: process.env.S3_SECRET_ACCESS_KEY,
+    },
+  },
 ];
 
 module.exports = {
