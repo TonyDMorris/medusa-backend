@@ -5,7 +5,7 @@
   "author": "Sebastian Rindom <skrindom@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "medusa seed -f ./data/seed.json && medusa migrations run && medusa start -p=8080"
+    "start": "medusa migrations run && medusa start -p=8080"
   },
   "dependencies": {
     "@medusajs/medusa": "^1.6.0",
