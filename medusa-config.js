@@ -2,23 +2,23 @@ const dotenv = require('dotenv')
 
 let ENV_FILE_NAME = '';
 switch (process.env.NODE_ENV) {
-	case 'production':
-		ENV_FILE_NAME = '.env.production';
-		break;
-	case 'staging':
-		ENV_FILE_NAME = '.env.staging';
-		break;
-	case 'test':
-		ENV_FILE_NAME = '.env.test';
-		break;
-	case 'development':
-	default:
-		ENV_FILE_NAME = '.env';
-		break;
+  case 'production':
+    ENV_FILE_NAME = '.env.production';
+    break;
+  case 'staging':
+    ENV_FILE_NAME = '.env.staging';
+    break;
+  case 'test':
+    ENV_FILE_NAME = '.env.test';
+    break;
+  case 'development':
+  default:
+    ENV_FILE_NAME = '.env';
+    break;
 }
 
 try {
-	dotenv.config({ path: process.cwd() + '/' + ENV_FILE_NAME });
+  dotenv.config({ path: process.cwd() + '/' + ENV_FILE_NAME });
 } catch (e) {
 }
 
@@ -42,17 +42,24 @@ const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
 // This is the place to include plugins. See API documentation for a thorough guide on plugins.
 const plugins = [
   `medusa-fulfillment-manual`,
-  `medusa-payment-manual`,
   {
     resolve: `medusa-file-s3`,
     options: {
-        s3_url: process.env.S3_URL,
-        bucket: process.env.S3_BUCKET,
-        region: process.env.S3_REGION,
-        access_key_id: process.env.S3_ACCESS_KEY_ID,
-        secret_access_key: process.env.S3_SECRET_ACCESS_KEY,
+      s3_url: process.env.S3_URL,
+      bucket: process.env.S3_BUCKET,
+      region: process.env.S3_REGION,
+      access_key_id: process.env.S3_ACCESS_KEY_ID,
+      secret_access_key: process.env.S3_SECRET_ACCESS_KEY,
     },
   },
+  {
+    resolve: `medusa-payment-stripe`,
+    options: {
+      api_key: STRIPE_API_KEY,
+      webhook_secret: STRIPE_WEBHOOK_SECRET,
+    },
+  }
+
 ];
 
 module.exports = {
@@ -61,12 +68,12 @@ module.exports = {
     // For more production-like environment install PostgresQL
     database_url: DATABASE_URL,
     database_type: "postgres",
-    
+
     // database_database: "./medusa-db.sql",
     // database_type: "sqlite",
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
-    
+
   },
   plugins,
 };
